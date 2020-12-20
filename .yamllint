@@ -1,6 +1,7 @@
 ignore: |
   .yamllint
   .github/
+  README.md
 
 extends: default
 rules:
