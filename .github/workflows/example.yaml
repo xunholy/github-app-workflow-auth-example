@@ -54,6 +54,4 @@ jobs:
           TOKEN: ${{ steps.generate_token.outputs.token }}
       - uses: hmarr/auto-approve-action@v2.0.0
         with:
-          github-token: '${TOKEN}'
-        env:
-          TOKEN: ${{ steps.generate_token.outputs.token }}
+          github-token: ${{ steps.generate_token.outputs.token }}
